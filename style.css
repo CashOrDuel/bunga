@@ -10,6 +10,17 @@
   --dark-color: #000;
 }
 
+.moving-text {
+  position: relative;
+  z-index: 10;
+  color: white; /* ganti jika latar putih */
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
 body {
   display: flex;
   align-items: flex-end;
@@ -1016,4 +1027,5 @@ body {
       transform: translateX(100vw); /* Bergerak ke kanan layar */
   }
 }
+
 
